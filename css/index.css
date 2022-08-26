@@ -33,49 +33,55 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+#banner{
+    width: 100%;
 }
 
-.productos li{
-    display: inline-block;
+.principal{
+    background: white;
+    padding: 20px;
+}
+
+.titulo-centralizado{
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.productos li:hover{
-    border-color: #c78c19;
-}
-
-.productos li:active{
-    border-color: #088c19;
-}
-
-.productos h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.productos li:hover h2{
-    font-size: 33px;
-}
-
-.descripcion{
-    font-size: 18px;
-}
-
-.precio{
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10px;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+    padding: 15px;
+}
+
+.mision strong{
+    color: red;
+    font-weight: bold;
+}
+
+.mision{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.diferenciales{
+    display: inline-block;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+.listaDiferenciales{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.imgDiferenciales{
+    width: 30%;
 }
 
 footer{
